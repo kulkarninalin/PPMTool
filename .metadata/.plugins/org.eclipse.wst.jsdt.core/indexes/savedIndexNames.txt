@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/nalinkulkarni/eclipse-workspace/Dec2019/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1208791639.index
+3532120138.index
+3008374806.index
+3198224716.index
+3676942521.index
+3883194815.index
+3861613544.index
