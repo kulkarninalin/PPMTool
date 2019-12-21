@@ -343,3 +343,81 @@ Contains: Missing antlr:antlr:jar:javadoc:2.7.7
 
 !ENTRY org.eclipse.ui 2 2 2019-12-21 11:34:43.084
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:18.849
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:18.850
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@798ca706[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=1030)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:18.854
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:19.186
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.142
+!MESSAGE Boot LS startup time from start to initialized: 24262ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.205
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AEVmaPekisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.215
+!MESSAGE subscribing to classpath changes: sts4.classpath.AEVmaPek isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.219
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.223
+!MESSAGE subsribers = {sts4.classpath.AEVmaPek=Send Classpath Notifications(1470)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.224
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.225
+!MESSAGE project PPMTool ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.228
+!MESSAGE project Demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.228
+!MESSAGE Preparing classpath changed notification PPMTool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.230
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.231
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.233
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.233
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AEVmaPek => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.234
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.258
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.260
+!MESSAGE buffering callback sts4.classpath.AEVmaPek PPMTool false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.261
+!MESSAGE Preparing classpath changed notification Demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.261
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.262
+!MESSAGE classpath=49 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.263
+!MESSAGE buffering callback sts4.classpath.AEVmaPek Demo false 49
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.264
+!MESSAGE executing callback sts4.classpath.AEVmaPek 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.316
+!MESSAGE executing callback sts4.classpath.AEVmaPek SUCCESS [done]
