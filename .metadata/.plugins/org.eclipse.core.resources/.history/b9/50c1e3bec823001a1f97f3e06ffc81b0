@@ -24,13 +24,8 @@ public class Project {
 	private Date created_At;
 	private Date updated_At;
 	
+	public Project() {}
 	
-	
-	public Project() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
 	@PrePersist
 	public void onCreate() {
 		this.created_At=new Date();
@@ -43,19 +38,6 @@ public class Project {
 	
 	
 	
-	public Project(Long id, String projectName, String projectIdentifier, String description, Date start_date,
-			Date end_date, Date created_At, Date updated_At) {
-		super();
-		this.id = id;
-		this.projectName = projectName;
-		this.projectIdentifier = projectIdentifier;
-		this.description = description;
-		this.start_date = start_date;
-		this.end_date = end_date;
-		this.created_At = created_At;
-		this.updated_At = updated_At;
-	}
-
 	public Long getId() {
 		return id;
 	}
@@ -150,12 +132,10 @@ public class Project {
 		this.updated_At = updated_At;
 	}
 
-	@Override
-	public String toString() {
-		return "Project [id=" + id + ", projectName=" + projectName + ", projectIdentifier=" + projectIdentifier
-				+ ", description=" + description + ", start_date=" + start_date + ", end_date=" + end_date
-				+ ", created_At=" + created_At + ", updated_At=" + updated_At + "]";
-	}
+
+
+
+	
 	
 
 }

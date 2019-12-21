@@ -24,13 +24,8 @@ public class Project {
 	private Date created_At;
 	private Date updated_At;
 	
+	public Project() {}
 	
-	
-	public Project() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
 	@PrePersist
 	public void onCreate() {
 		this.created_At=new Date();
@@ -156,6 +151,11 @@ public class Project {
 				+ ", description=" + description + ", start_date=" + start_date + ", end_date=" + end_date
 				+ ", created_At=" + created_At + ", updated_At=" + updated_At + "]";
 	}
+
+
+
+
+	
 	
 
 }
