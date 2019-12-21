@@ -421,3 +421,37 @@ Contains: Missing antlr:antlr:jar:javadoc:2.7.7
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 12:02:43.316
 !MESSAGE executing callback sts4.classpath.AEVmaPek SUCCESS [done]
+
+!ENTRY org.eclipse.wst.server.ui 4 0 2019-12-21 13:47:18.300
+!MESSAGE The server is invalid or missing
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 13:47:30.431
+!MESSAGE Preparing classpath changed notification Demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 13:47:30.433
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 13:47:30.433
+!MESSAGE buffering callback sts4.classpath.AEVmaPek Demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 13:47:30.434
+!MESSAGE executing callback sts4.classpath.AEVmaPek 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 13:47:30.441
+!MESSAGE executing callback sts4.classpath.AEVmaPek SUCCESS [done]
+
+!ENTRY Activator 4 0 2019-12-21 13:48:35.107
+!MESSAGE CoreException: Timed out waiting for Spring Cloud CLI to be installed
+!STACK 1
+org.eclipse.core.runtime.CoreException: Timed out waiting for Spring Cloud CLI to be installed
+	at org.springsource.ide.eclipse.commons.livexp.util.ExceptionUtil.coreException(ExceptionUtil.java:41)
+	at org.springsource.ide.eclipse.commons.livexp.util.ExceptionUtil.coreException(ExceptionUtil.java:32)
+	at org.springsource.ide.eclipse.commons.livexp.util.ExceptionUtil.coreException(ExceptionUtil.java:50)
+	at org.springframework.ide.eclipse.boot.util.Log.error(Log.java:60)
+	at org.springframework.ide.eclipse.boot.dash.model.local.AutoCloudCliInstaller.performInstall(AutoCloudCliInstaller.java:54)
+	at org.springframework.ide.eclipse.boot.dash.model.local.LocalServicesModel$1.doPerform(LocalServicesModel.java:62)
+	at org.springframework.ide.eclipse.boot.dash.model.BootDashHyperlink.perform(BootDashHyperlink.java:35)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashUnifiedTreeSection$10$1.run(BootDashUnifiedTreeSection.java:392)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 Activator 4 0 2019-12-21 13:48:35.107
+!MESSAGE Timed out waiting for Spring Cloud CLI to be installed
