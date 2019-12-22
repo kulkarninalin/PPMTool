@@ -19,7 +19,7 @@ public class ProjectController {
 	@Autowired
 	private ProjectService projectService;
 	
-	@PostMapping("/sa")
+	@PostMapping("/add")
 	public ResponseEntity<Project> createNewProject(@RequestBody Project project){
 		Project proj1=projectService.saveOrUpdateProject(project);
 		return new ResponseEntity<Project>(proj1,HttpStatus.CREATED);

@@ -455,3 +455,90 @@ org.eclipse.core.runtime.CoreException: Timed out waiting for Spring Cloud CLI t
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 Activator 4 0 2019-12-21 13:48:35.107
 !MESSAGE Timed out waiting for Spring Cloud CLI to be installed
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.513
+!MESSAGE Preparing classpath changed notification EventManagementTool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.520
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.521
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.522
+!MESSAGE buffering callback sts4.classpath.AEVmaPek EventManagementTool false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.523
+!MESSAGE executing callback sts4.classpath.AEVmaPek 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.529
+!MESSAGE executing callback sts4.classpath.AEVmaPek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.681
+!MESSAGE Preparing classpath changed notification EventManagementTool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.681
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.686
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.688
+!MESSAGE buffering callback sts4.classpath.AEVmaPek EventManagementTool false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.689
+!MESSAGE executing callback sts4.classpath.AEVmaPek 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:09:09.694
+!MESSAGE executing callback sts4.classpath.AEVmaPek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:11:11.162
+!MESSAGE Preparing classpath changed notification EventManagementTool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:11:11.164
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:11:11.164
+!MESSAGE buffering callback sts4.classpath.AEVmaPek EventManagementTool true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:11:11.166
+!MESSAGE executing callback sts4.classpath.AEVmaPek 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:11:11.174
+!MESSAGE executing callback sts4.classpath.AEVmaPek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:28.787
+!MESSAGE Preparing classpath changed notification EventManagementTool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:28.788
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:28.789
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:28.790
+!MESSAGE buffering callback sts4.classpath.AEVmaPek EventManagementTool false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:28.791
+!MESSAGE executing callback sts4.classpath.AEVmaPek 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:28.794
+!MESSAGE executing callback sts4.classpath.AEVmaPek SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:29.067
+!MESSAGE Preparing classpath changed notification EventManagementTool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:29.068
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:29.075
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:29.077
+!MESSAGE buffering callback sts4.classpath.AEVmaPek EventManagementTool false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:29.078
+!MESSAGE executing callback sts4.classpath.AEVmaPek 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 20:16:29.083
+!MESSAGE executing callback sts4.classpath.AEVmaPek SUCCESS [done]
