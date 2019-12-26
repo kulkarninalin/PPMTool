@@ -2,12 +2,17 @@ package com.nalin.ppm.domain;
 
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Entity
 public class Project {
@@ -15,12 +20,19 @@ public class Project {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	@NotBlank(message = "Project name required")
 	private String projectName;
+	@NotBlank(message = "Project identifier must")
 	private String projectIdentifier;
+	@NotBlank(message = "Description required")
+	@Size(min=4,max = 10,message = "description size in between 4 to 10")
+	@Column(updatable = false,unique = true)
 	private String description;
+	
 	private Date start_date;
 	private Date end_date;
 	
+	@JsonFormat(pattern = "yyyy-dd-mm")
 	private Date created_At;
 	private Date updated_At;
 	

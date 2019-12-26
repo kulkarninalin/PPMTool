@@ -2,13 +2,20 @@ package com.nalin.beingLive.pojo;
 
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.PostPersist;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
+import org.springframework.format.annotation.NumberFormat;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 
 @Entity
 public class User {
@@ -16,19 +23,32 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
+	
+	@NotBlank(message = "First name reqiured")
 	private String first_name;
 	private String middle_name;
+	@NotBlank(message = "Last name is required")
 	private String last_name;
 	private String role;
-	private Long mobile_number;
+	
+	@NotBlank(message = "mobile required")
+	@Size(min=4,max=10,message = "between 4 to 10")
+	@Column(updatable = false,unique = true)
+	private String mobile_number;
 	private Long alternate_number;
+	@JsonFormat(pattern = "yyyy-mm-dd")
 	private Date birthDate;
 	private int age;
 	private String primary_skill;
+	
+	@JsonFormat(pattern = "yyyy-mm-dd")
 	private Date start_Date;
+	@JsonFormat(pattern = "yyyy-mm-dd")
 	private Date end_Date;
 	
+	@JsonFormat(pattern = "yyyy-mm-dd")
 	private Date created_At;
+	@JsonFormat(pattern = "yyyy-mm-dd")
 	private Date updated_At;
 	
 	
@@ -40,7 +60,7 @@ public class User {
 	
 	
 
-	public User(Long id, String first_name, String middle_name, String last_name, String role, Long mobile_number,
+	public User(Long id, String first_name, String middle_name, String last_name, String role, String mobile_number,
 			Long alternate_number, Date birthDate, int age, String primary_skill, Date start_Date, Date end_Date,
 			Date created_At, Date updated_At) {
 		super();
@@ -111,11 +131,11 @@ public class User {
 		this.role = role;
 	}
 
-	public Long getMobile_number() {
+	public String getMobile_number() {
 		return mobile_number;
 	}
 
-	public void setMobile_number(Long mobile_number) {
+	public void setMobile_number(String mobile_number) {
 		this.mobile_number = mobile_number;
 	}
 
